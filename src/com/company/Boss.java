@@ -9,6 +9,7 @@ public class Boss {
     public int gethealth(){
         return health;
     }
+
     public String getdamage(){
         return damage;
     }
@@ -18,14 +19,13 @@ public class Boss {
     public void setHealth (int health) {
         this.health = health;
     }
+
     public void setDamage (String damage) {
         this.damage = damage;
     }
     public void setSuperpower (String superpower) {
         this.superpower = superpower;
     }
-
-
 
 }
 

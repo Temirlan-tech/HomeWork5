@@ -12,7 +12,7 @@ public class Hero {
         this.superpower = superpower;
     }
 
-    public Hero (int health, String damage){
+    public Hero(int health, String damage){
 
         this.health = health;
         this.damage = damage;
