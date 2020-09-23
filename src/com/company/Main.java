@@ -9,9 +9,15 @@ public class Main {
         boss.setDamage("Magical");
         boss.setSuperpower("fly");
 
-        System.out.println(boss.gethealth() + boss.getdamage() + boss.getsuperpower());
+        Hero[] heroes = createHeroes();
 
-        String [] x = createHeroes();
+        System.out.println(boss.gethealth() + " " + boss.getdamage() + " " + boss.getsuperpower());
+
+        for (Hero team : heroes){
+            System.out.println(team.gethealth() + " " + team.getdamage() + " " + team.getsuperpower());
+        }
+
+
 
     }
 
